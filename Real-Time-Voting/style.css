@@ -1,0 +1,20 @@
+.voting-card {
+  width: 60%;
+  display: inline-block;
+}
+
+.btn-vote-option {
+  margin: 5px;
+  width: 60%;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .voting-card {
+    width: 90%;
+    display: inline-block;
+  }
+  .btn-vote-option {
+    margin: 5px;
+    width: 80%;
+  }
+}
